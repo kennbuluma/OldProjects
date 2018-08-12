@@ -1,0 +1,14 @@
+********************************************************************
+Fetch data from server for item,
+Fetch data from server for sales.
+Fetch data from server for profit, loss
+********************************************************************
+Sessions
+********************************************************************
+Select and auto-fill items using item id, item name, Description.
+Add each item into a JSON array and display in a table;
+Send the data into db.
+Subtract no of items from inventory db.
+********************************************************************
+Project complete:
+********************************************************************

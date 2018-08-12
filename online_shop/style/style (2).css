@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+a:link {
+	color: #00C;
+}
+a:visited {
+	color: #06F;
+}
+a:hover {
+	color: #FFF;
+}
+a:active {
+	color: #FFF;
+}
+
+.loginArea{
+	margin: auto;
+	}
+

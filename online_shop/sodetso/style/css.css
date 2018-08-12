@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	
+	}
+.top_bar{
+	background-color:#0CF;
+	width: auto;
+	overflow:hidden;
+	margin: 0px;
+	border-bottom: 1px solid #e1e1e1;	
+}
+.login_as{
+	height: 40px;
+	width: 238px;
+	float:left;
+	margin-left: 10px;
+	
+}
+.configuration{
+	height: 40px;
+	width: 200px;
+	float:left;
+	margin-left: 10px;
+}
+.login{
+	margin:20px auto;
+	width: 400px;
+	height: 400px;
+	background-color:#00F;
+	color:#FFF;
+	font-size:18px;
+	/*margin-top: 200px;*/
+	border-radius: 10px;
+	/*background-image:url(../images/desktop3%20light.JPG);*/
+	}
+	
+
+.logout{
+	height: 40px;
+	width: 115px;
+	float:right;
+	margin-right: 10px;
+	}
+.logout #logout{
+	background-color:#F00;
+	color:#FFF;
+	font-size:16px;
+	border: none;
+	width: 102px;
+	height:30px;
+	background: -webkit-linear-gradient(top, #F00, #F00);
+	background: -moz-linear-gradient(top, #F00, #F00);
+	background: -o-linear-gradient(top, #F00, #F00);
+	background: -ms-linear-gradient(top, #F00, #F00);
+	background: linear-gradient(top, #F00, #F00);
+	text-shadow: 0 -1px 0 #282828;
+	}
+.company_info{
+	width: auto;
+	overflow:hidden;
+	margin: 0px;
+	}
+.company_logo{
+	height: 60px;
+	width: 100px;
+	float:left;
+	margin-left: 10px;
+	
+}
+.company_name{
+	height: 60px;
+	width: 300px;
+	float:left;
+	margin-left: 10px;
+	
+}
+.owner_logo{
+	height: 60px;
+	width: 100px;
+	float:right;
+	margin-right: 10px;
+	
+}
+
+.wrapper{
+	margin: 0px;
+	overflow: hidden;
+	margin-top: 5px;
+	background:url(../images/artwork-pattern.png) repeat-x scroll left bottom #F8F9FA;	
+	}
+.side_menu{
+	margin-left: 20px;
+	overflow:hidden;
+	border: 1px solid #e1e1e1;
+	width: 18%;
+	float:left;
+	background-color:#FFF;
+	}
+.side_menu_list{
+	width: 100%;
+	overflow:hidden;
+}
+.side_menu_list ul{
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+.side_menu_list ul li{
+	width:100%;
+	float:left;
+	margin: 0px;
+	padding: 5px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.side_menu_list ul li a{
+	font-size:18px;
+	padding-left: 0px;
+	background: url('../images/menu-dark-indicator.png') no-repeat right;
+	display: block;
+}
+.side_menu_list ul li a:hover{
+	background-color: #f8f9fa;
+	width: 100%;
+	color:#333;
+	}
+.side_menu_header{
+	width: 100%;
+	height: 35px;
+	background-color:#0CF;
+	font-size:20px;
+	text-align:left;
+	color:#FFF;	
+	
+	}
+.controls{
+	background-color:#FFF;
+	width:72%;
+	margin-left: 20px;
+	margin-right: 10px;
+	overflow: hidden;
+	float:right;
+	border: 1px solid #e1e1e1;
+}
+.controls_header, .view_category_header, .add_category_header{
+	margin: 0px;
+	height: 35px;
+	background-color:#0CF;
+	font-size:20px;
+	text-align:left;
+	color:#FFF;	
+	
+	}
+.footer{
+	margin-top: 5px;
+	text-align:center;
+	background-color:#0CF;
+	}
+.shortcut_menus, .add_category_form, .view_category_list{
+	widows: 100%;
+	overflow:hidden;
+}
+.categories, .users, .subcategories, .customers, .currency, .inventory, .orders, .messages{
+	width: 100px;
+	height: 90px;
+	float:left;
+	border: 1px solid #e1e1e1;
+	margin: 5px;	
+	padding: 2px;
+	}
+/*====================================================END=======================*/
+.view_category, .add_category{
+	background-color:#FFF;
+	width:72%;
+	margin-left: 20px;
+	margin-right: 10px;
+	overflow: hidden;
+	float:right;
+	border: 1px solid #e1e1e1;
+	overflow:hidden;
+	margin-top: 10px;
+	}
+.ed{
+border-style:solid;
+border-width:thin;
+border-color:#00CCFF;
+padding:5px;
+margin-bottom: 4px;
+font-size:14px;
+}
+.user_login{
+	width: 400px;
+	height: 220px;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	font-size:16px;
+	margin-bottom: 20px;
+	
+	}
+	
+.submit{
+	width: 80px;
+	height: 35px;
+	font-size: 16px;
+	
+	}
+.user_register{
+	width: 95%;
+	height: 320px;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	font-size:16px;
+	}
+	#register{
+	width: 80px;
+	height: 35px;
+	font-size: 16px;
+	
+	}
+.contact{
+	float:left;
+	width: 450px;
+	height: 300px;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	font-size:16px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	}
+	
+.contact_details{
+	float:left;
+	width: 450px;
+	height: 300px;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	font-size:16px;
+	margin-bottom: 10px;	
+	}
